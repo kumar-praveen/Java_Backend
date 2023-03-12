@@ -8,13 +8,20 @@
     <artifactId>Java_Backend</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>SpringBoot</module>
         <module>Jdbc</module>
         <module>Hibernate</module>
         <module>Jpa</module>
         <module>Servlet</module>
+        <module>Spring</module>
     </modules>
+
+    <properties>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+    </properties>
 
 
 </project>
